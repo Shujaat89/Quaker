@@ -9,8 +9,7 @@
 	<body class="body-background">
 
 	
-		<div class="row">
-			<div class="col-md-6">
+		
 
 				<form class="form-inline " action="<?=base_url();?>services/login" method="post">
 				
@@ -23,19 +22,12 @@
 
 					  	
 	  				</div> <!-- from-group header_div -->
-	  		</div> <!-- col-md-6 -->
 	  		
-	  		<div class="col-md-6">
-	  				<ul class="nav nav-pills">
-					  		<li role="presentation" class="active"><a href="#"><?=$username?></a></li>
-					  		<li role="presentation" class="active"><a href="#">Home</a></li>
-					  		<li role="presentation" class="active"><a href="#">Messages</a></li>
-					  		<li role="presentation" class="active"><a href="#">Settings</a></li>
+	  		
+	  		
+	  				
 
-					  	</ul>
-
-	  		</div> <!-- col-md-6 -->
-	  	</div>	<!-- row -->
+	  	
 	
 	  
 	 
