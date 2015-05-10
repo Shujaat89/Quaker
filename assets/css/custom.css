@@ -1,0 +1,148 @@
+.login-form{
+	
+    
+    margin-left: 30%;
+  	margin-top: 15%;
+}
+
+.login-form-title{
+	background-color: rgb(143, 167, 245);
+  	width: 415px;
+  	height: 49px;
+  	border-top-left-radius: 12px;
+  	border-top-right-radius: 12px;
+}
+
+.login-form-contents{
+	border-style: solid;
+  	border-width: 1px;
+  	width: 415px;
+  	background-color: white;
+}
+
+.login-form-textareas {
+
+	width: 92%;
+}
+
+.logo-login{
+  height: 50px;
+  margin-left: 12px;
+  margin-right: -16px;
+}
+
+.body-backgroud{ 
+    background-color: rgba(128, 128, 128, 0.15);
+
+}
+
+.login-banner{
+
+	font-family: serif;
+  	font-size: 22px;
+  	margin-left: 16px;
+  	color: white;
+  	font-weight: bold;
+}
+
+.login-btn {
+
+	width: 25%;
+}
+
+.singup-link{
+	float: right;
+  	margin-top: 4%;
+}
+
+.body-background{
+  background-color: rgb(234, 234, 234);
+}
+.singin-div{
+    padding-top: 2%;
+    padding-left: 52%;
+    background-color: rgba(3, 21, 95, 0.62);
+    color:white;
+    padding-bottom: 2px;   
+    
+}
+.banner
+{
+  color: white;
+  float: left;
+  font-family: fantasy;
+  padding-left: 5%;
+}
+
+.singup-div{
+  background-color: white;
+  color: gray;
+}
+
+.main-img-div{
+  float: left;
+
+}
+
+
+.custom-singupfrom-width{
+  width: 50%;
+}
+.custom-select{
+  width: 8%;
+  height: 6%;
+}
+.searchbar{
+  width: 600px !important;
+  margin-top: 6px;
+  margin-left: 275px;
+}
+
+.header_div{
+  background-color: rgba(3, 21, 95, 0.62);
+  width: 100%;
+
+}
+
+.header_link
+{
+  color: white;
+}
+
+.header_link:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.wrapper{
+  width: 100%;
+  
+}
+.status{
+  float: left;
+}
+
+.info_sec{
+  float: left;
+  width: 273px;
+}
+
+.status_text{
+  height: 110px;
+  width: 250px;
+  text-align: center;
+}
+.user_pic{
+  height: 95px;
+  margin-left: 15px;
+}
+
+.side_optns{
+  margin-left: 15px;
+}
+
+.invalid_info{
+
+  color: red;
+  display: none; 
+}
