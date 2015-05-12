@@ -95,15 +95,17 @@
 .searchbar{
   width: 600px !important;
   margin-top: 6px;
-  margin-left: 275px;
+  margin-left: 30px;
 }
 
 .header_div{
   background-color: rgba(3, 21, 95, 0.62);
-  width: 100%;
+  
 
 }
-
+.header_form_height{
+  height: 31px;
+}
 .header_link
 {
   color: white;

@@ -7,17 +7,35 @@
 	<script src="<?=base_url();?>assets/js/custom.js"></script>
 	</head>
 	<body class="body-background">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10">
-					<input type="text" name="search" id="search"> 
-					<button class="btn">Search</button>
-				</div>
-				<div class="col-sm-2">
-					<a href="#">Home</a>
-					<a href="#">Messages</a>
-					<a href="#">Profile</a>
-					<a href="#">Settings</a>
-				</div>
-			</div>
-		</div>
+
+		
+
+	
+		<div class="row header_div">
+			<div class="col-md-9 ">
+
+				<form class="form-inline " action="<?=base_url();?>services/login" method="post">
+				
+				  	<div class="form-group header_form_height">
+				    
+					    <input type="text" class="form-control searchbar" id="search" placeholder="Find People Here" name="search">
+					  	<input type="submit" id="srchbtn" class="btn btn-primary" value="Search">
+
+					  
+
+					  	
+	  				</div> <!-- from-group header_div -->
+	  		</div> <!-- col-md-6 -->
+	  		
+	  		<div class="col-md-3">
+	  				<a href="#">Home</a>
+	  				<a href="#">Profile</a>
+	  				<a href="#">Settings</a>
+
+	  		</div> <!-- col-md-6 -->
+	  	</div>	<!-- row -->
+	
+	  
+	 
+	  
+	</form>
