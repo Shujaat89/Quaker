@@ -7,37 +7,17 @@
 	<script src="<?=base_url();?>assets/js/custom.js"></script>
 	</head>
 	<body class="body-background">
-
-	
-		<div class="row">
-			<div class="col-md-6">
-
-				<form class="form-inline " action="<?=base_url();?>services/login" method="post">
-				
-				  	<div class="form-group header_div">
-				    
-					    <input type="text" class="form-control searchbar" id="search" placeholder="Find People Here" name="search">
-					  	<input type="submit" id="srchbtn" class="btn btn-primary" value="Search">
-
-					  
-
-					  	
-	  				</div> <!-- from-group header_div -->
-	  		</div> <!-- col-md-6 -->
-	  		
-	  		<div class="col-md-6">
-	  				<ul class="nav nav-pills">
-					  		<li role="presentation" class="active"><a href="#"><?=$username?></a></li>
-					  		<li role="presentation" class="active"><a href="#">Home</a></li>
-					  		<li role="presentation" class="active"><a href="#">Messages</a></li>
-					  		<li role="presentation" class="active"><a href="#">Settings</a></li>
-
-					  	</ul>
-
-	  		</div> <!-- col-md-6 -->
-	  	</div>	<!-- row -->
-	
-	  
-	 
-	  
-	</form>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10">
+					<input type="text" name="search" id="search"> 
+					<button class="btn">Search</button>
+				</div>
+				<div class="col-sm-2">
+					<a href="#">Home</a>
+					<a href="#">Messages</a>
+					<a href="#">Profile</a>
+					<a href="#">Settings</a>
+				</div>
+			</div>
+		</div>
