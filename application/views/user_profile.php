@@ -10,15 +10,18 @@
 					<div class="side_optns"><a href="#">Friends</a></div>
 
 
-	</div>
+	</div> <!-- infe_sec -->
+	
 	<div id="contends">
 	<div class="status" class="status">
 	<input type="text" class="form-control status_text" placeholder="What's In Your Mind">
+	<div class="controll_btns">
 	<input type="submit" id="post_status" class="btn btn-primary" value="Post">
 	<input type="submit" id="upld_img" class="btn btn-primary" value="Upload Image">
 	<input type="submit" id="upld_vdo" class="btn btn-primary" value="Upload Video">
-	</div>
+	</div>  <!-- controll_btns -->
+	</div> <!-- status -->
 
 		
-	</div>
-	</div>
+	</div>	<!-- contends -->
+	</div>	<!-- wrapper -->
