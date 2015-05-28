@@ -1,5 +1,5 @@
 
-	<div class="wrapper">
+	<div class="container wrapper">
 	<div id="info_sec" class="info_sec">
 		<div class="user_pic_div">
 			<?php if(isset($pic)) {echo "will add soon";}
