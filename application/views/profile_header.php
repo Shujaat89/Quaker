@@ -22,7 +22,7 @@
 				  	<div class="form-group header_form_height">
 				    
 					    <input type="text" class="form-control searchbar" id="search" placeholder="Find People Here" name="search">
-					  	<input type="submit" id="srchbtn" class="btn btn-primary" value="Search">
+					  	<input type="submit" id="srchbtn" class="btn btn-primary status_btns" value="Search">
 
 					  
 
