@@ -7,13 +7,15 @@
 	<script src="<?=base_url();?>assets/js/jquery-2.1.1.min.js"></script>
 	<script src="<?=base_url();?>assets/js/custom.js"></script>
 	</head>
-	<body class="body-background">
+	<body>
 
 		
 
 	
 		<div class="row header_div">
 			<div class="col-md-9 ">
+				<div class="logo"><img src="<?=base_url();?>assets/imgs/logo.png" class="logo_img"><span class="logo-font"> QuAkEr</span></div>
+				
 
 				<form class="form-inline " action="<?=base_url();?>services/login" method="post">
 				
