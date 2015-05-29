@@ -12,10 +12,14 @@
 		
 
 	
+<<<<<<< HEAD
 		<div class="row header_div">
 			<div class="col-md-9 ">
 				<div class="logo"><img src="<?=base_url();?>assets/imgs/logo.png" class="logo_img"><span class="logo-font"> QuAkEr</span></div>
 				
+=======
+		
+>>>>>>> master
 
 				<form class="form-inline " action="<?=base_url();?>services/login" method="post">
 				
@@ -28,16 +32,20 @@
 
 					  	
 	  				</div> <!-- from-group header_div -->
-	  		</div> <!-- col-md-6 -->
 	  		
+<<<<<<< HEAD
 	  		<div class="col-md-3 header_links_custom_height">
 	  				<a href="#">Home</a>
 	  				<a href="#">Profile</a>
 	  				<a href="#">Settings</a>
 	  				<a href="<?=base_url();?>">Log out</a>
+=======
+	  		
+	  		
+	  				
+>>>>>>> master
 
-	  		</div> <!-- col-md-6 -->
-	  	</div>	<!-- row -->
+	  	
 	
 	  
 	 
