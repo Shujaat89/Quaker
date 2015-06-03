@@ -12,7 +12,7 @@
 		
 
 	
-		<div class="row header_div">
+		<nav class="nav navbar-default header_div" role="navigation">
 			<div class="col-md-9 ">
 				<div class="logo"><img src="<?=base_url();?>assets/imgs/logo.png" class="logo_img"><span class="logo-font"> QuAkEr</span></div>
 				
@@ -28,16 +28,16 @@
 
 					  	
 	  				</div> <!-- from-group header_div -->
-	  		</div> <!-- col-md-6 -->
+	  		</div> <!-- col-md-9 -->
+	  		<ul class="nav navbar-nav">
+	  			<li ><a href="#">Home</a></li>
+	  			<li ><a href="#">Profile</a></li>
+	  			<li ><a href="#">Settings</a></li>
+	  			<li ><a href="<?=base_url();?>">Log out</a></li>
+	  		</ul>
 	  		
-	  		<div class="col-md-3 header_links_custom_height">
-	  				<a href="#">Home</a>
-	  				<a href="#">Profile</a>
-	  				<a href="#">Settings</a>
-	  				<a href="<?=base_url();?>">Log out</a>
-
-	  		</div> <!-- col-md-6 -->
-	  	</div>	<!-- row -->
+	  		
+	  	</nav>	<!-- nav -->
 	
 	  
 	 
