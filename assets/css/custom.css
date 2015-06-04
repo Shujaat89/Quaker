@@ -208,3 +208,13 @@
 
   margin-left: 5px;
 }
+
+.user_info{
+  border: solid;
+  border-width: 1px;
+  width: 850px;
+  margin-left: 115px;
+  margin-top: 10px;
+  border-radius: 10px;
+  
+}
