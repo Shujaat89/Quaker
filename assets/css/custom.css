@@ -14,10 +14,9 @@
 }
 
 .login-form-contents{
-	
-  	border-width: 1px;
-  	width: 415px;
-  	background-color: white;
+    border-width: 1px;
+    width: 415px;
+    background-color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }

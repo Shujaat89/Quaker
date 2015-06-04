@@ -10,12 +10,10 @@
 	<body>
 
 		
-
-	
 		<nav class="nav navbar-default header_div" role="navigation">
+
 			<div class="col-md-9 ">
 				<div class="logo"><img src="<?=base_url();?>assets/imgs/logo.png" class="logo_img"><span class="logo-font"> QuAkEr</span></div>
-				
 
 				<form class="form-inline " action="<?=base_url();?>services/login" method="post">
 				
@@ -38,8 +36,5 @@
 	  		
 	  		
 	  	</nav>	<!-- nav -->
-	
-	  
-	 
 	  
 	</form>
