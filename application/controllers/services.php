@@ -59,6 +59,14 @@ class Services extends CI_Controller {
 
 		//$this->load->view("footer");
 	}
+	public function loadMyProfile(){
+
+		$data["username"] = $this->session->userdata('username');
+		$data["id"] = $this->session->userdata('user_id');
+		$data["email"]= $this->session->userdata('email');
+		$this->load->view("profile_header",$data);
+		$this->load->view("User_profile",$data);
+	}
 
 
 	public function get_db(){
