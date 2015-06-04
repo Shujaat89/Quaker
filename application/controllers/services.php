@@ -55,7 +55,7 @@ class Services extends CI_Controller {
 
 		$this->load->view("profile_header",$data);
 		
-		$this->load->view("user_profile",$data);
+		$this->load->view("user_wall",$data);
 
 		//$this->load->view("footer");
 	}

@@ -31,7 +31,7 @@
 	  			<li ><a href="#">Home</a></li>
 	  			<li ><a href="#">Profile</a></li>
 	  			<li ><a href="#">Settings</a></li>
-	  			<li ><a href="<?=base_url();?>">Log out</a></li>
+	  			<li ><a href="<?=base_url();?>services/logout">Log out</a></li>
 	  		</ul>
 	  		
 	  		
