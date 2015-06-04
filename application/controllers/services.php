@@ -30,6 +30,10 @@ class Services extends CI_Controller {
 		die(json_encode($response));
 	}
 
+	public function logout(){
+		$this->session->sess_destroy();
+		$this->load->view("main");
+	}
 	
 
 
@@ -49,7 +53,7 @@ class Services extends CI_Controller {
 		$data["email"]= $this->session->userdata('email');
 
 
-		$this->load->view("profile_header.php",$data);
+		$this->load->view("profile_header",$data);
 		
 		$this->load->view("user_profile",$data);
 

@@ -6,7 +6,7 @@
 }
 
 .login-form-title{
-	background-color: rgb(143, 167, 245);
+	background-color: rgb(92, 245, 105);
   	width: 415px;
   	height: 49px;
   	border-top-left-radius: 12px;
@@ -14,10 +14,11 @@
 }
 
 .login-form-contents{
-	border-style: solid;
-  	border-width: 1px;
-  	width: 415px;
-  	background-color: white;
+    border-width: 1px;
+    width: 415px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .login-form-textareas {
@@ -43,6 +44,7 @@
   	margin-left: 16px;
   	color: white;
   	font-weight: bold;
+    font-family: fantasy;
 }
 
 .login-btn {
@@ -95,15 +97,17 @@
 .searchbar{
   width: 600px !important;
   margin-top: 6px;
-  margin-left: 275px;
+  margin-left: 30px;
 }
 
 .header_div{
-  background-color: rgba(3, 21, 95, 0.62);
-  width: 100%;
+  background-color: rgba(151, 211, 4, 0.62)
+  
 
 }
-
+.header_form_height{
+  height: 31px;
+}
 .header_link
 {
   color: white;
@@ -115,7 +119,7 @@
 }
 
 .wrapper{
-  width: 100%;
+  margin-top: 20px;
   
 }
 .status{
@@ -129,12 +133,14 @@
 
 .status_text{
   height: 110px;
-  width: 250px;
+  width: 285px;
   text-align: center;
+
 }
 .user_pic{
   height: 95px;
   margin-left: 15px;
+  border-radius: 50px;
 }
 
 .side_optns{
@@ -145,4 +151,60 @@
 
   color: red;
   display: none; 
+}
+.controll_btns{
+
+  margin-top: 5px;
+}
+
+.header_links_custom_height{
+  margin-top: 8px;
+}
+.logo
+{
+
+  float: left;
+  margin-left: 44px;
+  
+}
+.logo_img{
+  width: 50px;
+  float: left;
+  
+}
+.logo-font{
+  font-size: 30px;
+  color: white;
+  font-family: fantasy;
+}
+.user_options_div{
+  margin-left: 22px;
+  margin-top: 12px;
+  margin-top: 12px;
+  border-style: solid;
+  width: 95px;
+  border-width: 1px;
+  border-radius: 11px;
+  background-color: rgba(173, 240, 9, 0.1);
+  border-color: rgb(190, 239, 190);
+}
+
+.user_status_text
+{
+  border-style: solid;
+  border-color: yellow;
+  border-width: 2px;
+  border-radius: 16px;
+}
+
+.status_btns
+{
+
+  background-color: rgb(141, 245, 129);
+  border-color: rgb(26, 194, 92);
+  border-radius: 20px;
+}
+.user_pic_div{
+
+  margin-left: 5px;
 }
