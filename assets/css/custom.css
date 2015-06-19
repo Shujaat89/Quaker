@@ -229,5 +229,22 @@
     margin-top: 5px;
 }
 .user_info_label{
+  margin-top: 15px;
   margin-left: 10px;
+}
+
+#restoff_user_info_labels{
+  margin-left: 60px;
+  width: 650px;
+  margin-top: 5px
+}
+
+#user_contact{
+  margin-top: 15px;
+  display: none;
+}
+
+#user_edu_work{
+   margin-top: 15px;
+   display: none;
 }
