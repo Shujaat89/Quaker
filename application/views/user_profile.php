@@ -1,6 +1,6 @@
 	<div class="container wrapper">
 	<div class="user_pic_div">
-			<?php if(isset($pic)) {//echo "<img src='$image' >";
+			<?php if($pic !="") {echo "<img class='user_pic' src='".base_url().$pic."'>";
 		}
 					else{?><img src="<?=base_url();?>assets/imgs/no-img.jpg" class="user_pic"><?php } ?>
 		</div> <!-- user_pic_div -->

@@ -52,6 +52,7 @@ class Services extends CI_Controller {
 		$data["username"] = $this->session->userdata('username');
 		$data["id"] = $this->session->userdata('user_id');
 		$data["email"]= $this->session->userdata('email');
+		$data["pic"] = $this->session->userdata('pic');
 		
 
 
