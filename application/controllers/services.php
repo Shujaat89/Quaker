@@ -18,14 +18,15 @@ class Services extends CI_Controller {
 		
 		$this->load->model('check_login');
 		$response = $this->check_login->chkLogin($email,$pass);
-		
+		$this->session->set_userdata($response);
+
 		$status = array('status' => 1);
 		if($response === 0) {
 			$status = array('status' => 0);
 			die(json_encode($status));
 		}
 
-		$this->session->set_userdata($response);
+		
 		
 		die(json_encode($response));
 	}
@@ -51,6 +52,7 @@ class Services extends CI_Controller {
 		$data["username"] = $this->session->userdata('username');
 		$data["id"] = $this->session->userdata('user_id');
 		$data["email"]= $this->session->userdata('email');
+		
 
 
 		$this->load->view("profile_header",$data);
@@ -59,13 +61,18 @@ class Services extends CI_Controller {
 
 		//$this->load->view("footer");
 	}
+
 	public function loadMyProfile(){
 
 		$data["username"] = $this->session->userdata('username');
 		$data["id"] = $this->session->userdata('user_id');
 		$data["email"]= $this->session->userdata('email');
-		$this->load->view("profile_header",$data);
-		$this->load->view("User_profile",$data);
+		$this->load->model('get_user_info');
+		$user_info = $this->get_user_info->getUserInfo($data['email']);
+		
+
+		$this->load->view("profile_header",$user_info);
+		$this->load->view("user_profile",$user_info);
 	}
 
 
