@@ -14,6 +14,7 @@
 		<div class="user_info_load" id="personal_info" onclick="changeText(this)">
 			<table><tr><td><span class="user_info_label">Name</span></td><td><input type="text" class="form-control user_info_text" placeholder="<?php if(isset($name)){echo $name;} else {echo "No Name";} ?>" aria-describedby="basic-addon2"></td></tr>
 				<tr><td><span class="user_info_label">Username</span></td><td><input type="text" class="form-control user_info_text" placeholder="<?php if(isset($username)){echo $username;} else{echo "No Username";} ?>" aria-describedby="basic-addon2"></td></tr>
+				<tr><td><span class="user_info_label">Sex</span></td><td><input type="text" class="form-control user_info_text" placeholder="<?php if($sex == "1"){echo "Male";}  if($sex == "2"){echo "Female";}  if($sex == "0"){ echo "No Sex Provided";}?>" aria-describedby="basic-addon2"></td></tr>
 				<tr><td><span class="user_info_label">About</span></td><td><textarea id="txtArea" rows="10" cols="70" class="form-control user_info_text"><?php if(isset($about)){echo $about;} else{echo "No About Myself";} ?></textarea></td></tr>
 			</table>
 			 

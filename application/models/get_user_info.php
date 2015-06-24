@@ -29,6 +29,7 @@ class get_user_info extends CI_Model{
 			   $user_data['uni'] = $row->uni;
 			   $user_data['work'] = $row->work;
 			   $user_data['comapny'] = $row->company;
+			   $user_data['sex'] = $row->sex;
 			  
 
 			   return $user_data;
