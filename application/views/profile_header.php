@@ -28,8 +28,8 @@
 	  				</div> <!-- from-group header_div -->
 	  		</div> <!-- col-md-9 -->
 	  		<ul class="nav navbar-nav">
-	  			<li ><a href="#">Home</a></li>
-	  			<li ><a href="#">Profile</a></li>
+	  			<li ><a href="<?=base_url();?>services/loadProfile">Home</a></li>
+	  			<li ><a href="<?=base_url();?>services/loadMyProfile">Profile</a></li>
 	  			<li ><a href="#">Settings</a></li>
 	  			<li ><a href="<?=base_url();?>services/logout">Log out</a></li>
 	  		</ul>

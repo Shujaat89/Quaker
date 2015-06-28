@@ -78,9 +78,34 @@ $(document).ready(function(){
 			});
 
 
-		});
+		}); //$("#login_btn").click(function( e)
 
-	
+	$('.anchor').on('click', function(){
+		var self  = $(this);
+		self.siblings().removeClass("active");
+		self.addClass('active');
+
+		if(self.text() == "Personal Info"){
+			$("#personal_info").css("display","Block");
+			$("#user_edu_work").css("display","none");
+			$("#user_contact").css("display","none");
+		}
+		if(self.text() == "Education and Work"){
+			
+			$("#user_edu_work").css("display","Block");
+			$("#personal_info").css("display","none");
+			$("#user_contact").css("display","none");
+		}
+		if(self.text() == "Contact"){
+			$("#user_contact").css("display","Block");
+			$("#personal_info").css("display","none");
+			$("#user_edu_work").css("display","none");
+		}
+
+	});
 
 
 });
+
+
+	
