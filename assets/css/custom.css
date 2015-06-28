@@ -208,3 +208,56 @@
 
   margin-left: 5px;
 }
+
+.user_info{
+  border: solid;
+  border-width: 1px;
+  width: 850px;
+  margin-left: 115px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  border-color: rgba(128, 128, 128, 0.23);
+
+}
+
+.user_info_load{
+    margin-top: 15px;
+}
+.user_info_text{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.user_info_label{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#restoff_user_info_labels{
+  margin-left: 60px;
+  width: 650px;
+  margin-top: 5px
+}
+
+#user_contact{
+  margin-top: 15px;
+  display: none;
+}
+
+#user_edu_work{
+   margin-top: 15px;
+   display: none;
+}
+
+.profile_scrn_btns{
+    margin-left: 10px;
+    width: 85px;
+
+}
+
+.profil_scrn_btns_div{
+
+    margin-left: 300px;
+    margin-top:   5px; 
+
+}

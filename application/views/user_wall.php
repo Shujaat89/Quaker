@@ -2,7 +2,8 @@
 	<div class="container wrapper">
 	<div id="info_sec" class="info_sec">
 		<div class="user_pic_div">
-			<?php if(isset($pic)) {echo "will add soon";}
+			<?php if($pic !="") {echo "<img class='user_pic' src='".base_url().$pic."'>";
+		}
 					else{?><img src="<?=base_url();?>assets/imgs/no-img.jpg" class="user_pic"><?php } ?>
 		</div> <!-- user_pic_div -->
 

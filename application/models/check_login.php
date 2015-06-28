@@ -12,8 +12,8 @@ class Check_login extends CI_Model{
 
 			   $user_data['username']= $row->username;
 			   $user_data['id']=$row->id;
-			   $user_data['pic']=$row->pic;
 			   $user_data['email']= $row->email;
+			   $user_data['pic'] = $row->pic;
 
 			   return $user_data;
 			   
