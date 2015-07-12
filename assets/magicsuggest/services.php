@@ -87,13 +87,9 @@ class Services extends CI_Controller {
 		$this->load->view("my_wall");
 	}
 
-	public function get_users_suggestions(){
+	public function get_users(){
 
-		$usersQuery = $this->input->post('query');
-		$this->load->model('get_suggestions');
-		$returnedSuggestions=$this->get_suggestions->getSuggestions($usersQuery);
-		print_r($returnedSuggestions);
-
-
+		$names = $pass = $this->input->post('query');
+		echo $names;
 	}
 }

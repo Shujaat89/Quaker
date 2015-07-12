@@ -107,8 +107,8 @@ $(document).ready(function(){
 	$(function() {
     $('#search').magicSuggest({
         allowFreeEntries: false,
-  		data: base_url+'get_users_suggestions',
-
+  		data: base_url+'get_users',
+  		
     });
 });
 
