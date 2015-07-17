@@ -30,6 +30,11 @@
   height: 50px;
   margin-left: 12px;
   margin-right: -16px;
+  transition : all.5s;
+}
+
+.logo-login:hover{
+  transform : rotate(360deg);
 }
 
 .body-backgroud{ 
@@ -170,7 +175,13 @@
 .logo_img{
   width: 50px;
   float: left;
+  transition : all.5s;
   
+}
+
+.logo_img:hover{
+
+  transform : rotate(360deg);
 }
 .logo-font{
   font-size: 30px;

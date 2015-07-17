@@ -92,7 +92,8 @@ class Services extends CI_Controller {
 		$usersQuery = $this->input->post('query');
 		$this->load->model('get_suggestions');
 		$returnedSuggestions=$this->get_suggestions->getSuggestions($usersQuery);
-		print_r($returnedSuggestions);
+
+		die(json_encode($returnedSuggestions));
 
 
 	}

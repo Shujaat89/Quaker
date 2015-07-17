@@ -12,7 +12,6 @@ class get_suggestions extends CI_Model{
 				for($i=0; $i<$result->num_rows(); $i++){
 
 					$response[$i]["name"]=$row->name;
-					$response[$i]["username"]= $row->username;
 					$row = $result->next_row();
 				}
 

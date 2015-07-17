@@ -104,14 +104,28 @@ $(document).ready(function(){
 
 	});
 
-	$(function() {
-    $('#search').magicSuggest({
-        allowFreeEntries: false,
-  		data: base_url+'get_users_suggestions',
+// 	$(function() {
+//     $('#search').magicSuggest({
+//         allowFreeEntries: false,
+//   		data: base_url+'get_users_suggestions',
 
-    });
-});
+//     });
+// });
+	
+	$("#search").on('keyup', function() {
+			var queryToSend = $("#search").val();
+			$.ajax({
+				type : "POST",
+				data : {query : queryToSend },
+				url : base_url+"get_users_suggestions",
+				dataType: 'JSON'
 
+			})
+			.done(function(data){
+					
+					$(".user_status_text").val(data[0].name);
+			});
+	});
 
 });
 
